@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESD_ASSIGNMENTS_7
+	bool "AESD ASSIGNMENTS 7"
+	depends on BR2_LINUX_KERNEL
+	help
+		Include scull and misc-modules of assignment 7
